@@ -135,5 +135,10 @@ namespace RouteCostCalculator
             ComboPass.SelectedIndex = -1;
             ComboPass12.SelectedIndex = -1;
         }
+
+        private void GrB1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

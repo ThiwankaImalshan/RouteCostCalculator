@@ -57,10 +57,9 @@
             this.lblFrom.BackColor = System.Drawing.Color.Transparent;
             this.lblFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFrom.ForeColor = System.Drawing.Color.Navy;
-            this.lblFrom.Location = new System.Drawing.Point(75, 86);
-            this.lblFrom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFrom.Location = new System.Drawing.Point(112, 132);
             this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(40, 17);
+            this.lblFrom.Size = new System.Drawing.Size(57, 25);
             this.lblFrom.TabIndex = 0;
             this.lblFrom.Text = "From";
             // 
@@ -71,10 +70,9 @@
             this.lblTo.BackColor = System.Drawing.Color.Transparent;
             this.lblTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTo.ForeColor = System.Drawing.Color.Navy;
-            this.lblTo.Location = new System.Drawing.Point(75, 132);
-            this.lblTo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTo.Location = new System.Drawing.Point(112, 203);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(25, 17);
+            this.lblTo.Size = new System.Drawing.Size(36, 25);
             this.lblTo.TabIndex = 2;
             this.lblTo.Text = "To";
             // 
@@ -85,10 +83,9 @@
             this.lblFare.BackColor = System.Drawing.Color.Transparent;
             this.lblFare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFare.ForeColor = System.Drawing.Color.Navy;
-            this.lblFare.Location = new System.Drawing.Point(65, 448);
-            this.lblFare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFare.Location = new System.Drawing.Point(98, 689);
             this.lblFare.Name = "lblFare";
-            this.lblFare.Size = new System.Drawing.Size(91, 20);
+            this.lblFare.Size = new System.Drawing.Size(134, 29);
             this.lblFare.TabIndex = 6;
             this.lblFare.Text = "Total Fare";
             // 
@@ -99,10 +96,9 @@
             this.lblPassengers.BackColor = System.Drawing.Color.Transparent;
             this.lblPassengers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassengers.ForeColor = System.Drawing.Color.Navy;
-            this.lblPassengers.Location = new System.Drawing.Point(75, 205);
-            this.lblPassengers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPassengers.Location = new System.Drawing.Point(112, 315);
             this.lblPassengers.Name = "lblPassengers";
-            this.lblPassengers.Size = new System.Drawing.Size(121, 17);
+            this.lblPassengers.Size = new System.Drawing.Size(167, 25);
             this.lblPassengers.TabIndex = 7;
             this.lblPassengers.Text = "No of Passengers";
             // 
@@ -113,10 +109,9 @@
             this.lblUnder12.BackColor = System.Drawing.Color.Transparent;
             this.lblUnder12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnder12.ForeColor = System.Drawing.Color.Navy;
-            this.lblUnder12.Location = new System.Drawing.Point(75, 248);
-            this.lblUnder12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUnder12.Location = new System.Drawing.Point(112, 382);
             this.lblUnder12.Name = "lblUnder12";
-            this.lblUnder12.Size = new System.Drawing.Size(182, 17);
+            this.lblUnder12.Size = new System.Drawing.Size(249, 25);
             this.lblUnder12.TabIndex = 9;
             this.lblUnder12.Text = "No of Passengers under 12";
             // 
@@ -138,13 +133,13 @@
             this.GrB1.Controls.Add(this.lblPassengers);
             this.GrB1.LineColor = System.Drawing.Color.White;
             this.GrB1.LineTop = 0;
-            this.GrB1.Location = new System.Drawing.Point(27, 117);
-            this.GrB1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GrB1.Location = new System.Drawing.Point(40, 180);
             this.GrB1.Name = "GrB1";
             this.GrB1.Radius = 20;
-            this.GrB1.Size = new System.Drawing.Size(440, 303);
+            this.GrB1.Size = new System.Drawing.Size(660, 466);
             this.GrB1.TabIndex = 12;
             this.GrB1.TextLocation = new System.Drawing.Point(10, 8);
+            this.GrB1.Click += new System.EventHandler(this.GrB1_Click);
             // 
             // gunaLabel1
             // 
@@ -152,10 +147,9 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.Navy;
-            this.gunaLabel1.Location = new System.Drawing.Point(73, 21);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(110, 32);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(296, 25);
+            this.gunaLabel1.Size = new System.Drawing.Size(433, 38);
             this.gunaLabel1.TabIndex = 16;
             this.gunaLabel1.Text = "Route No 001 Colombo - Kandy";
             // 
@@ -181,13 +175,12 @@
             "8",
             "9",
             "10"});
-            this.ComboPass12.Location = new System.Drawing.Point(269, 244);
-            this.ComboPass12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ComboPass12.Location = new System.Drawing.Point(404, 375);
             this.ComboPass12.Name = "ComboPass12";
             this.ComboPass12.OnHoverItemBaseColor = System.Drawing.Color.MediumBlue;
             this.ComboPass12.OnHoverItemForeColor = System.Drawing.Color.White;
             this.ComboPass12.Radius = 10;
-            this.ComboPass12.Size = new System.Drawing.Size(71, 26);
+            this.ComboPass12.Size = new System.Drawing.Size(104, 35);
             this.ComboPass12.TabIndex = 15;
             // 
             // ComboPass
@@ -212,13 +205,12 @@
             "8",
             "9",
             "10"});
-            this.ComboPass.Location = new System.Drawing.Point(269, 201);
-            this.ComboPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ComboPass.Location = new System.Drawing.Point(404, 309);
             this.ComboPass.Name = "ComboPass";
             this.ComboPass.OnHoverItemBaseColor = System.Drawing.Color.MediumBlue;
             this.ComboPass.OnHoverItemForeColor = System.Drawing.Color.White;
             this.ComboPass.Radius = 10;
-            this.ComboPass.Size = new System.Drawing.Size(71, 26);
+            this.ComboPass.Size = new System.Drawing.Size(104, 35);
             this.ComboPass.TabIndex = 14;
             // 
             // ComboTo
@@ -232,13 +224,12 @@
             this.ComboTo.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.ComboTo.ForeColor = System.Drawing.Color.Black;
             this.ComboTo.FormattingEnabled = true;
-            this.ComboTo.Location = new System.Drawing.Point(163, 128);
-            this.ComboTo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ComboTo.Location = new System.Drawing.Point(244, 197);
             this.ComboTo.Name = "ComboTo";
             this.ComboTo.OnHoverItemBaseColor = System.Drawing.Color.MediumBlue;
             this.ComboTo.OnHoverItemForeColor = System.Drawing.Color.White;
             this.ComboTo.Radius = 10;
-            this.ComboTo.Size = new System.Drawing.Size(177, 26);
+            this.ComboTo.Size = new System.Drawing.Size(264, 35);
             this.ComboTo.TabIndex = 13;
             // 
             // ComboFrom
@@ -252,13 +243,12 @@
             this.ComboFrom.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.ComboFrom.ForeColor = System.Drawing.Color.Black;
             this.ComboFrom.FormattingEnabled = true;
-            this.ComboFrom.Location = new System.Drawing.Point(163, 82);
-            this.ComboFrom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ComboFrom.Location = new System.Drawing.Point(244, 126);
             this.ComboFrom.Name = "ComboFrom";
             this.ComboFrom.OnHoverItemBaseColor = System.Drawing.Color.MediumBlue;
             this.ComboFrom.OnHoverItemForeColor = System.Drawing.Color.White;
             this.ComboFrom.Radius = 10;
-            this.ComboFrom.Size = new System.Drawing.Size(177, 26);
+            this.ComboFrom.Size = new System.Drawing.Size(264, 35);
             this.ComboFrom.TabIndex = 12;
             // 
             // lblTotFare
@@ -268,10 +258,9 @@
             this.lblTotFare.BackColor = System.Drawing.Color.Transparent;
             this.lblTotFare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotFare.ForeColor = System.Drawing.Color.Black;
-            this.lblTotFare.Location = new System.Drawing.Point(170, 448);
-            this.lblTotFare.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTotFare.Location = new System.Drawing.Point(255, 689);
             this.lblTotFare.Name = "lblTotFare";
-            this.lblTotFare.Size = new System.Drawing.Size(0, 20);
+            this.lblTotFare.Size = new System.Drawing.Size(0, 29);
             this.lblTotFare.TabIndex = 13;
             // 
             // BtnCalculate
@@ -290,8 +279,7 @@
             this.BtnCalculate.ForeColor = System.Drawing.Color.White;
             this.BtnCalculate.Image = null;
             this.BtnCalculate.ImageSize = new System.Drawing.Size(20, 20);
-            this.BtnCalculate.Location = new System.Drawing.Point(324, 440);
-            this.BtnCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnCalculate.Location = new System.Drawing.Point(486, 677);
             this.BtnCalculate.Name = "BtnCalculate";
             this.BtnCalculate.OnHoverBaseColor = System.Drawing.Color.White;
             this.BtnCalculate.OnHoverBorderColor = System.Drawing.Color.Navy;
@@ -300,7 +288,7 @@
             this.BtnCalculate.OnPressedColor = System.Drawing.Color.Black;
             this.BtnCalculate.Radius = 10;
             this.BtnCalculate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnCalculate.Size = new System.Drawing.Size(107, 31);
+            this.BtnCalculate.Size = new System.Drawing.Size(160, 48);
             this.BtnCalculate.TabIndex = 14;
             this.BtnCalculate.Text = "Calculate";
             this.BtnCalculate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -317,22 +305,20 @@
             this.GrB2.Controls.Add(this.gunaLabel2);
             this.GrB2.LineColor = System.Drawing.Color.White;
             this.GrB2.LineTop = 0;
-            this.GrB2.Location = new System.Drawing.Point(509, 117);
-            this.GrB2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GrB2.Location = new System.Drawing.Point(764, 180);
             this.GrB2.Name = "GrB2";
             this.GrB2.Radius = 20;
-            this.GrB2.Size = new System.Drawing.Size(282, 303);
+            this.GrB2.Size = new System.Drawing.Size(423, 466);
             this.GrB2.TabIndex = 17;
             this.GrB2.TextLocation = new System.Drawing.Point(10, 8);
             // 
             // RtbBill
             // 
             this.RtbBill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RtbBill.Location = new System.Drawing.Point(20, 72);
-            this.RtbBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RtbBill.Location = new System.Drawing.Point(30, 111);
             this.RtbBill.Name = "RtbBill";
             this.RtbBill.ReadOnly = true;
-            this.RtbBill.Size = new System.Drawing.Size(243, 196);
+            this.RtbBill.Size = new System.Drawing.Size(362, 299);
             this.RtbBill.TabIndex = 17;
             this.RtbBill.Text = "";
             // 
@@ -342,10 +328,9 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.Navy;
-            this.gunaLabel2.Location = new System.Drawing.Point(87, 21);
-            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(130, 32);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(114, 25);
+            this.gunaLabel2.Size = new System.Drawing.Size(170, 38);
             this.gunaLabel2.TabIndex = 16;
             this.gunaLabel2.Text = "Bill Preview";
             // 
@@ -355,20 +340,19 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(684, 508);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(1026, 782);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 14);
+            this.label1.Size = new System.Drawing.Size(169, 22);
             this.label1.TabIndex = 18;
             this.label1.Text = "© Thiwanka Imalshan";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(817, 487);
+            this.ClientSize = new System.Drawing.Size(1226, 749);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.GrB2);
             this.Controls.Add(this.BtnCalculate);
@@ -376,7 +360,6 @@
             this.Controls.Add(this.GrB1);
             this.Controls.Add(this.lblFare);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bus Fare Calculator";
